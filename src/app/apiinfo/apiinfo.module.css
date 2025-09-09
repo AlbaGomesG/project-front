@@ -1,0 +1,18 @@
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, #a78657 0%, #7e553a 100%);
+}
+
+.content{
+    text-align: center;
+    height: 55vh;
+    width: 95vh;
+    border: 1.7px solid #8B5C2A;
+    border-radius: 8px;
+    color: #6B4226;
+    background-color: #F5D3B3;
+}
