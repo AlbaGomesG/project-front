@@ -1,5 +1,5 @@
 .container {
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -7,12 +7,108 @@
     background: linear-gradient(90deg, #a78657 0%, #7e553a 100%);
 }
 
+.imageBanner{
+    width: 250vh;
+    height: 60vh;
+    opacity: 70%;
+    object-fit: cover;
+}
+
 .content{
+    display: flex;
     text-align: center;
-    height: 55vh;
-    width: 95vh;
-    border: 1.7px solid #8B5C2A;
-    border-radius: 8px;
-    color: #6B4226;
-    background-color: #F5D3B3;
+    margin-top: 5vh;
+    flex-direction: column;
+}
+
+.title {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3.5vh;
+    width: 60%;
+    margin-left: 1vh;
+}
+
+.description{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;    text-align: left;
+    display: flex;
+    text-align: justify;
+    margin-left: 41vh;
+    margin-top: 2vh;
+    line-height: 4vh;
+    font-size: 2vh;
+    width: 60%;
+    color: white;
+}
+
+.titleContent{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1vh;
+    margin-top: 5rem;
+    width: 60%;
+}
+
+.icon {
+    font-size: 4vh;
+}
+
+.line{
+    width: 60%;
+    height: 0.3vh;
+    background-color: #533420;
+    margin-top: 3vh;
+}
+
+.titleInformation{
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1vh;
+    margin-top: 8vh;
+    width: 60%;
+    font-size: 3.5vh;
+}
+
+.attributes{
+    margin-top: 5vh;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+    gap: 15vh;
+}
+
+.listItem{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transform: 0.3s;
+}
+
+.listItem:hover{
+    transform: translateY(-5px);
+}
+
+.url{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    margin-top: 5vh;
+    display: flex;
+    width: 60%;
+    align-items: center;
+    color: white;
+    transition: 0.3s;
+}
+
+.url:hover{
+   transform: translateY(-5px);
+}
+
+.urlEndpoints{
+    display: flex;
+    flex-direction: row;
+    gap: 40vh;
 }
